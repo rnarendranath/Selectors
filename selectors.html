@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Selectors</title>
+        <style>
+            *{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                background-color: rgb(201, 202, 142);
+                text-align: center;
+            }
+
+            p{
+                color:rgb(26, 146, 10);
+                text-align: center;
+            }
+            #idsel{
+                color: rgb(110, 104, 104);
+                text-align: right;
+            }
+            .classsel{
+                color: rgb(6, 105, 151);
+            }
+            a:hover{
+                font-size: x-large;
+                font-weight: bold;
+                color: blueviolet;
+            }   
+            a:active{
+                background-color: rgb(0, 60, 255);
+            }
+            a:link{
+                color:rgb(255, 255, 255);
+                transition: all .3s linear;
+            }
+            a:visited{
+                color:rgb(165, 16, 145);
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Universal Selector : Background Color changed by Universal selector</h3>
+        <p>Tag Selector : Styles added by tag selector.</p>
+        <p class="classsel">CLASS Selector : Styles added by CLASS selector.</p>
+        <p id="idsel">ID Selector : Styles added by ID selector.</p>
+        <a href="https://kongu.ac.in/" target="_blank" >KEC</a>
+    
+     </body>
+</html>
+    
